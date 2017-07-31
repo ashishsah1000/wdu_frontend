@@ -1,0 +1,155 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+/*for sign in and sign up*/
+
+.in_body {
+    /* background: url("http://lorempixel.com/1400/600");
+    background-size: cover; */
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.pro_head {
+    background: url("http://lorempixel.com/1400/600");
+    background-size: cover;
+    height: 550px;
+}
+
+.pro_cover {
+    position: relative;
+    height: 100% !important;
+    background: rgba(22, 22, 22, 0.7);
+}
+
+.pro_ban {
+    width: 100%;
+    height: 100%;
+}
+
+.brand {
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    padding: 8px 8px;
+}
+
+.brand:hover {
+    background: rgba(22, 22, 22, 0.5);
+    color: white;
+}
+
+.pro_input {
+    border: 1px solid grey !important;
+    background: none !important;
+    color: grey !important;
+}
+
+.pro_input:focus {
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+.pro_pic {
+    padding: 30PX 30PX;
+    margin-top: 180px;
+}
+
+.pro_pic img {
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.header i {
+    padding: 10px 4px !important;
+    color: white !important;
+}
+
+.pro_bottom {
+    background: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.pro_bottom a {
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgba(22, 22, 22, 0);
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.pro_bottom i {
+    color: white;
+}
+
+.pro_pills {
+    margin-bottom: -110px;
+}
+
+.pro_bottom a:hover {
+    border-bottom: 4px solid orange;
+}
+
+.pro_bottom a:active {
+    border-bottom: 4px solid green;
+    color: grey;
+}
+
+.active_section {
+    border-bottom: 4px solid green !important;
+}
+
+.pro_bottom i {
+    margin-bottom: 0px !important;
+}
+
+.in_body hr {
+    display: block;
+    height: .51px;
+    border: 0;
+    border-top: .51px solid grey;
+    margin: .511em 0;
+    padding: 0;
+}
+
+.cont_hold {
+    padding: 70px 20px !important;
+}
+
+.cont_info {
+    padding: 70px 20px !important;
+}
+
+.on_desk {
+    padding: 30px 10px;
+    color: grey;
+}
+
+.owl_content {
+    margin-right: 20px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+}
+
+.book_img {
+    height: 150px !important;
+}
+
+.ui .card {
+    background: ghostwhite;
+}
