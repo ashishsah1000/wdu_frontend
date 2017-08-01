@@ -3,6 +3,18 @@ $(document).ready(function() {
         $('.active_section').removeClass('active_section');
         $(this).addClass('active_section');
     });
+    $('.desk_tab').click(function() {
+        $('.desk_active').removeClass('desk_active');
+        $(this).addClass('desk_active');
+    });
+    $('.tools')
+        .popup({
+            inline: false
+
+        });
+    $("#rateYo").rateYo({
+        starWidth: "30px"
+    });
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,

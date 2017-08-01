@@ -9,13 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
     <link rel="stylesheet" href="main.css">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js'></script>
-    <script src="script.js">
-    </script>
+
 </head>
 
 <body class="in_body">
@@ -86,64 +82,136 @@
         </div>
     </div>
     <!--end ogf the header and the portfolio section  -->
-    <div class="cont_book">
+    <div class="cont_book" style="margin-top:25px;">
         <div class="">
             <div class=" ui grid stackable ">
-                <div class="twelve wide column cont_hold ">
-
-
+                <div class="five wide column cont_info ">
+                    <div class="profile">
+                        <p align="center"><img src="https://www.sideshowtoy.com/photo.php?sku=902934" class="ui circular image" height="130px" width="130px"></p>
+                        <h2 align="center">Ashish Sah</h2>
+                        <p>Labore et in nostrud incididunt laborum aute labore velit. Sit in labore est exercitation labore. Esse cillum nisi esse voluptate exercitation duis in et consequat nisi esse. Consectetur tempor ut duis non adipisicing minim elit
+                            quis dolor proident.</p>
+                        <div class="pro_info">
+                            <span><i class="fa fa-calendar-check-o"></i><b> Member Since:</b> 22/5/1998</span><br><br>
+                            <span><i class="fa fa-map-marker"></i><b> Address:</b> 22/5/1998</span><br><br>
+                            <span><i class="fa fa-thumbs-up"></i><b> Member Since:</b> 22/5/1998</span><br><br>
+                            <span><i class="fa fa-diamond"></i><b> Books Read:</b> 25</span><br><br>
+                            <span><i class="fa fa-paperclip"></i> ashishsah1000@gmail.com</span><br>
+                        </div>
+                    </div>
                 </div>
-                <div class="four wide column cont_info ">
-                    <div class="on_desk ui segment ">
-                        <h3>On the desk:</h3>
-                        <div class="owl-carousel owl-theme " style="padding:10px 10px !important; ">
-                            <div class="owl_content ">
-                                <div class="ui card ">
-                                    <div class="image ">
-                                        <img class="book_img " src="https://images-na.ssl-images-amazon.com/images/I/51tIfrpcT5L._SX258_BO1,204,203,200_.jpg ">
-                                    </div>
-                                    <div class="content ">
-                                        <span class="right floated ">
-                                             <i class="heart outline like icon "></i>
-                                                                                17 likes
-                                        </span>
-                                        <i class="comment icon "></i> 3
-                                    </div>
-                                    <div class="extra content ">
-                                        <div class="ui large transparent left icon input ">
-                                            <i class="heart outline icon "></i>
-                                            <input type="text " placeholder="Add Comment... ">
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="seven wide column cont_activity ">
+                    <!--activity section lies here  -->
+                    <div class="act_card">
+                        <div class="ui grid">
+                            <div class="six wide column img_act">
+                                <img src="https://static.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg" alt="">
+
                             </div>
-                            <div class="owl_content ">
-                                <div class="ui card ">
-                                    <div class="image ">
-                                        <img class="book_img " src="http://wallpapercave.com/wp/EwhXRek.jpg">
-                                    </div>
-                                    <div class="content ">
-                                        <span class="right floated ">
-                                             <i class="heart outline like icon "></i>
-                                                                                17 likes
-                                        </span>
-                                        <i class="comment icon "></i> 3
-                                    </div>
-                                    <div class="extra content ">
-                                        <div class="ui large transparent left icon input ">
-                                            <i class="heart outline icon "></i>
-                                            <input type="text " placeholder="Add Comment... ">
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="ten wide column info_act">
+                                <h3>The blossomes in the field:</h3>
+                                <p>A little discriptions can be provided here to know the status how it is working and when it goes here it works quit well. I hope i will succeed in making it awesome.</p>
+                                <div style="clear:both;float:right"><i class="fa fa-heart-o fa-2x"></i></div>
+                                <div id="rateYo"></div>
+
                             </div>
+                        </div>
+                        <div class="comment">
+
                         </div>
                     </div>
 
                 </div>
+                <div class="four wide column  ">
+                    <div class="on_desk  ">
+                        <div class="desk_header">
+                            <div class=" ui container">
+                                <div class="ui grid">
+                                    <div class="six wide column">
+                                        <h4 center>On desk:</h4>
+                                    </div>
+
+                                    <div class="ten wide column">
+                                        <a class="desk_tab desk_active"><i class="fa fa-rocket"></i></a>
+                                        <a class="desk_tab"><i class="fa fa-bandcamp"></i></a>
+                                        <a class="desk_tab"><i class="fa fa-check-circle"></i></a>
+                                        <a class="desk_tab"><i class="fa fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desk_content">
+                            <div class="d_content ">
+                                <div class="tools" data-html=" 
+                                <div class='ui grid' style='padding:0px 0px;width:400px'>
+                                    <div class='six wide column'>
+                                    <img src='https://www.parhlo.com/wp-content/uploads/2016/06/pdboXfT.jpg' height='100px' width='120px'>
+                                    </div>
+                                    <div class='eight wide column'>
+                                    <h3>The last Bus Stop</h3>
+                                    <p>Reading | Last Date :30/7/17</p>
+                                    </div>">
+                                    <a href=""><i class="fa fa-bolt" data-html></i>  The last bus stop:</a></div>
+                                <p>By arijit singh in 2005 a event...</p>
+                            </div>
+
+                            <div class="d_content">
+                                <div class="tools" data-html="
+                                <div class='ui grid' style='padding:20px 20px;width:400px'>
+                                    <div class='six wide column'>
+                                    <img src='http://www.visitnsw.com/sites/default/files/Stunning-Three_Sisters_Blue_Mountains.jpg' height='100px' width='120px'>
+                                    </div>
+                                    <div class='eight wide column'>
+                                    <h3>Love your Passion</h3>
+                                    <p> End Date :10/7/17</p>">
+                                    <a href=""><i class="fa fa-bolt"></i>  Love your passion:</a></div>
+                                <p>to come from backend i dont know how will you do</p>
+                            </div>
+                            <div class="d_content">
+                                <div class="tools" data-html="
+                                <div class='ui grid' style='padding:20px 20px;width:400px'>
+                                    <div class='six wide column'>
+                                    <img src='https://www.sciencedaily.com/images/2014/03/140305125100_1_540x360.jpg' height='100px' width='120px'>
+                                    </div>
+                                    <div class='eight wide column'>
+                                    <h3>The last Bus Stop</h3>
+                                    <p>Reading | Last Date :30/7/17</p>">
+                                    <a href=""><i class="fa fa-bolt"></i>  Half-Girlfriend:</a></div>
+                                <p>to come from backend i dont know how will you do</p>
+                            </div>
+                            <div class="d_content">
+                                <div class="tools" data-html="
+                                <div class='ui grid' style='padding:20px 20px;width:400px'>
+                                    <div class='six wide column'>
+                                    <img src='https://www.sciencedaily.com/images/2014/03/140305125100_1_540x360.jpg' height='100px' width='120px'>
+                                    </div>
+                                    <div class='eight wide column'>
+                                    <h3>Lets code for a while</h3>
+                                    <p>Reading | Last Date :30/7/17</p>">
+                                    <a href=""><i class="fa fa-bolt"></i>  Animesh Singh:</a></div>
+                                <p>to come from backend i dont know how will you do</p>
+                            </div>
+                            <a href="">More...</a>
+                        </div>
+                    </div>
+                    <div class="graph">
+                        <!--this area will contain the graph part  -->
+                        Graph
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 
 </html>

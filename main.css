@@ -21,7 +21,7 @@ p {
 }
 
 .pro_head {
-    background: url("http://lorempixel.com/1400/600");
+    background: url("https://static.pexels.com/photos/33109/fall-autumn-red-season.jpg");
     background-size: cover;
     height: 550px;
 }
@@ -126,30 +126,96 @@ p {
     padding: 0;
 }
 
+.cont_info {
+    background: ghostwhite;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.profile {
+    margin: 0px auto;
+    width: 300px;
+}
+
+.pro_info h2,
+p {
+    color: grey;
+}
+
+.pro_info span {
+    font-size: 16px;
+    color: grey;
+}
+
+.cont_book {}
+
 .cont_hold {
     padding: 70px 20px !important;
 }
 
-.cont_info {
-    padding: 70px 20px !important;
-}
-
 .on_desk {
-    padding: 30px 10px;
-    color: grey;
-}
-
-.owl_content {
-    margin-right: 20px !important;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 240px;
-}
-
-.book_img {
-    height: 150px !important;
-}
-
-.ui .card {
     background: ghostwhite;
+    padding: 10px 10px;
+}
+
+.desk_header {
+    background: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 5px 10px;
+}
+
+.desk_header a {
+    padding: 4px 4px;
+    color: grey;
+    font-size: 18px;
+    border-bottom: 2px solid none;
+    cursor: pointer;
+}
+
+.desk_header a:hover {
+    color: grey;
+    border-bottom: 2px solid orange;
+}
+
+.desk_active {
+    border-bottom: 2px solid grey;
+}
+
+.desk_active i {
+    color: black;
+}
+
+.desk_content {
+    padding: 20px 10px;
+}
+
+.d_content p {
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+/*activity section start here starts here...  */
+
+.act_card {
+    width: 590px;
+    background: ghostwhite;
+    padding: 20px 20px 0px 20px;
+}
+
+.act_card img {
+    width: 100%;
+}
+
+.img_act {}
+
+.info_act {
+    padding: 20px 20px;
+}
+
+.comment {
+    padding: 10px 10px;
+    margin-right: 0px;
 }
