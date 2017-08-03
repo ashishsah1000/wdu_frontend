@@ -127,6 +127,7 @@ p {
 }
 
 .cont_info {
+    margin-top: 32px;
     background: ghostwhite;
     padding: 20px 20px;
     border-radius: 10px;
@@ -154,6 +155,7 @@ p {
 }
 
 .on_desk {
+    margin-top: 20px;
     background: ghostwhite;
     padding: 10px 10px;
 }
@@ -202,11 +204,21 @@ p {
 .act_card {
     width: 590px;
     background: ghostwhite;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 0px 0px 0px;
+    margin-top: 20px;
 }
 
 .act_card img {
     width: 100%;
+}
+
+.act_card i {
+    color: grey;
+    cursor: pointer;
+}
+
+.act_card i:hover {
+    color: orange;
 }
 
 .img_act {}
@@ -216,6 +228,40 @@ p {
 }
 
 .comment {
-    padding: 10px 10px;
-    margin-right: 0px;
+    padding: 10px 0px;
+    background: rgb(242, 242, 242)
+}
+
+.comment i {
+    color: grey;
+    cursor: pointer;
+}
+
+.comment i:hover {
+    color: orange;
+}
+
+.cmnt {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid grey;
+    margin-left: -25px;
+}
+
+.cmnt:focus {
+    outline: none;
+    border-bottom: 2px solid orange;
+}
+
+.cmnt_img {
+    height: 40px !important;
+    width: 40px !important;
+    margin-top: 8px !important;
+}
+
+.status_info {
+    font-size: 12px;
+    color: grey;
 }

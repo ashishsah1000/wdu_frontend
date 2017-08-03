@@ -13,7 +13,9 @@ $(document).ready(function() {
 
         });
     $("#rateYo").rateYo({
-        starWidth: "30px"
+        starWidth: "30px",
+        rating: 3.2,
+        readOnly: true
     });
     $('.owl-carousel').owlCarousel({
         loop: true,
