@@ -221,7 +221,27 @@ p {
     color: orange;
 }
 
-.img_act {}
+.like i {
+    color: rgba(240, 42, 72, 1);
+}
+
+.like,
+.unlike,
+.like_n,
+.unlike_n i {
+    color: red;
+}
+
+.like {
+    color: orange;
+}
+
+.unlike,
+.unlike_n,
+.like,
+.like_n {
+    color: orange;
+}
 
 .info_act {
     padding: 20px 20px;
@@ -256,12 +276,43 @@ p {
 }
 
 .cmnt_img {
+    height: 30px !important;
+    width: 30px !important;
+    margin-top: 8px !important;
+}
+
+.cmnt_i {
     height: 40px !important;
     width: 40px !important;
     margin-top: 8px !important;
 }
 
+.n_cmnt {
+    margin-top: -20px !important;
+}
+
+.n_content {
+    font-size: 10px;
+}
+
 .status_info {
     font-size: 12px;
     color: grey;
+}
+
+.comments {
+    background: rgb(242, 242, 242);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s
+}
+
+.fade-enter,
+.fade-leave-to
+/* .fade-leave-active below version 2.1.8 */
+
+{
+    opacity: 0
 }
